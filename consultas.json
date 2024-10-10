@@ -1,0 +1,18 @@
+[
+  {
+    "base_code": "USD",
+    "target_code": "ARS",
+    "mount": 0.0,
+    "conversion_rate": 976.25,
+    "conversion_result": 97625.0,
+    "time_last_update_utc": "Thu, 10 Oct 2024 00:00:02 +0000"
+  },
+  {
+    "base_code": "COP",
+    "target_code": "PEN",
+    "mount": 0.0,
+    "conversion_rate": 8.8045E-4,
+    "conversion_result": 0.17609,
+    "time_last_update_utc": "Thu, 10 Oct 2024 00:00:02 +0000"
+  }
+]
