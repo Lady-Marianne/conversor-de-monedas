@@ -81,7 +81,7 @@ public class Principal {
 
                 MonedaData monedaData = convertir.convertirMoneda(base_code, target_code, mount);
                 listaConsultas.add(monedaData);
-                System.out.println(monedaData.formatoConsulta());
+                System.out.println( mount + " " + monedaData.formatoConsulta());
 
             } catch (InputMismatchException e) {
                 System.out.println("Por favor, ingrese una opción válida.\n");
@@ -91,7 +91,7 @@ public class Principal {
             }
         }
         try {
-            generador.guardarJson(listaConsultas, listaConsultas);
+            generador.guardarJson(listaConsultas);
         } catch (IOException e) {
             System.out.println("Error al guardar el archivo: " + e.getMessage());
         }

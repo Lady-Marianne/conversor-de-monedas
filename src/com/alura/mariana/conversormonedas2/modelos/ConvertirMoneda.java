@@ -14,6 +14,7 @@ public class ConvertirMoneda {
         String miApiKey = "fa477dd4131f04ba5918ff0c";
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + miApiKey
                 + "/pair/" + base_code + "/" + target_code + "/" + mount);
+
         try (HttpClient client = HttpClient.newHttpClient()) {
 
             HttpRequest request = HttpRequest.newBuilder()
