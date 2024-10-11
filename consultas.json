@@ -1,23 +1,30 @@
 [
   {
     "base_code": "ARS",
-    "target_code": "USD",
-    "conversion_rate": 0.001021,
-    "conversion_result": 153.15,
+    "target_code": "PEN",
+    "conversion_rate": 0.003805,
+    "conversion_result": 5707.5,
     "time_last_update_utc": "Fri, 11 Oct 2024 00:00:02 +0000"
   },
   {
-    "base_code": "USD",
+    "base_code": "PEN",
     "target_code": "ARS",
-    "conversion_rate": 979.42,
-    "conversion_result": 96962.58,
+    "conversion_rate": 262.838,
+    "conversion_result": 262838.0,
     "time_last_update_utc": "Fri, 11 Oct 2024 00:00:02 +0000"
   },
   {
-    "base_code": "COP",
-    "target_code": "BRL",
-    "conversion_rate": 0.001318,
-    "conversion_result": 659.0,
+    "base_code": "PEN",
+    "target_code": "ARS",
+    "conversion_rate": 262.838,
+    "conversion_result": 1314190.0,
+    "time_last_update_utc": "Fri, 11 Oct 2024 00:00:02 +0000"
+  },
+  {
+    "base_code": "BRL",
+    "target_code": "ARS",
+    "conversion_rate": 175.3442,
+    "conversion_result": 175344.2,
     "time_last_update_utc": "Fri, 11 Oct 2024 00:00:02 +0000"
   }
 ]

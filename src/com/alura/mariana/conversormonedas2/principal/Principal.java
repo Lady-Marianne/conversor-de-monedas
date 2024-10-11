@@ -81,7 +81,7 @@ public class Principal {
 
                 MonedaData monedaData = convertir.convertirMoneda(base_code, target_code, mount);
                 listaConsultas.add(monedaData);
-                System.out.println( mount + " " + monedaData.formatoConsulta());
+                System.out.println( mount + " " + monedaData.formatoConsulta() + "\n");
 
             } catch (InputMismatchException e) {
                 System.out.println("Por favor, ingrese una opción válida.\n");

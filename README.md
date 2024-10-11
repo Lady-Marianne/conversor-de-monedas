@@ -48,8 +48,8 @@ El archivo `consultas.json` contiene un historial de todas las consultas realiza
 Cada consulta incluye información sobre:
 
 - Moneda de origen y destino.
-- Monto convertido.
 - Tasa de conversión.
+- Monto convertido.
 - Fecha y hora de la última actualización de la tasa.
 
 ### Publicación en GitHub:
