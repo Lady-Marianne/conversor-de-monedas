@@ -1,5 +1,3 @@
----
-
 # Alura Latam - Challenge: Conversor de monedas.
 
 **Desarrolladora:** Mariana Andrea Lois.
@@ -58,5 +56,3 @@ Cada consulta incluye información sobre:
 
 Este proyecto fue subido a GitHub utilizando Git Bash. 
 A través de Git, se realizó el seguimiento de los cambios y el control de versiones del código, lo que permitió gestionar eficientemente el desarrollo del proyecto.
-
----
