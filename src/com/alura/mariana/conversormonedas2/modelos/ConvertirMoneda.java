@@ -8,11 +8,11 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConvertirMoneda {
+    private static final String MI_API_KEY = "fa477dd4131f04ba5918ff0c";
 
     public MonedaData convertirMoneda(String base_code, String target_code, double mount)
     {
-        String miApiKey = "fa477dd4131f04ba5918ff0c";
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + miApiKey
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + MI_API_KEY
                 + "/pair/" + base_code + "/" + target_code + "/" + mount);
 
         try (HttpClient client = HttpClient.newHttpClient()) {
