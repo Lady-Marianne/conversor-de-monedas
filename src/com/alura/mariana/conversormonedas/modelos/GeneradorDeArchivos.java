@@ -1,4 +1,4 @@
-package com.alura.mariana.conversormonedas2.modelos;
+package com.alura.mariana.conversormonedas.modelos;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

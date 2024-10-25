@@ -1,4 +1,4 @@
-package com.alura.mariana.conversormonedas2.modelos;
+package com.alura.mariana.conversormonedas.modelos;
 
 public record MonedaData(
         String base_code,

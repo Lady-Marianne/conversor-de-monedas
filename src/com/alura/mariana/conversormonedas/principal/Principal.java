@@ -1,8 +1,8 @@
-package com.alura.mariana.conversormonedas2.principal;
+package com.alura.mariana.conversormonedas.principal;
 
-import com.alura.mariana.conversormonedas2.modelos.ConvertirMoneda;
-import com.alura.mariana.conversormonedas2.modelos.GeneradorDeArchivos;
-import com.alura.mariana.conversormonedas2.modelos.MonedaData;
+import com.alura.mariana.conversormonedas.modelos.ConvertirMoneda;
+import com.alura.mariana.conversormonedas.modelos.GeneradorDeArchivos;
+import com.alura.mariana.conversormonedas.modelos.MonedaData;
 
 import java.io.IOException;
 import java.util.ArrayList;
