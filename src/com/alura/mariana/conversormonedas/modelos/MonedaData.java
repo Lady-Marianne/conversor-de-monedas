@@ -1,14 +1,12 @@
 package com.alura.mariana.conversormonedas.modelos;
 
+import com.google.gson.annotations.SerializedName;
 public record MonedaData(
-        String base_code,
-        String target_code,
-        double conversion_rate,
-        double conversion_result,
-        String time_last_update_utc
+        @SerializedName("base_code") String baseCode,
+        @SerializedName("target_code") String targetCode,
+        @SerializedName("conversion_rate") double conversionRate,
+        @SerializedName("conversion_result") double conversionResult,
+        @SerializedName("time_last_update_utc") String timeLastUpdateUtc
 ) {
-    public String formatoConsulta() {
-        return String.format("%s son %.2f %s.\nHora de la última actualización: %s",
-                base_code, conversion_result, target_code, time_last_update_utc);
-    }
+
 }

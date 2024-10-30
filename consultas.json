@@ -1,16 +1,22 @@
 [
   {
-    "base_code": "ARS",
-    "target_code": "USD",
-    "conversion_rate": 0.001014,
-    "conversion_result": 152.1,
-    "time_last_update_utc": "Fri, 25 Oct 2024 00:00:01 +0000"
+    "monedaData": {
+      "base_code": "USD",
+      "target_code": "ARS",
+      "conversion_rate": 986.33,
+      "conversion_result": 98633.0,
+      "time_last_update_utc": "Fri, 25 Oct 2024 00:00:01 +0000"
+    },
+    "mount": 100.0
   },
   {
-    "base_code": "BRL",
-    "target_code": "COP",
-    "conversion_rate": 758.0441,
-    "conversion_result": 2.2741323E8,
-    "time_last_update_utc": "Fri, 25 Oct 2024 00:00:01 +0000"
+    "monedaData": {
+      "base_code": "COP",
+      "target_code": "BRL",
+      "conversion_rate": 0.001319,
+      "conversion_result": 0.308646,
+      "time_last_update_utc": "Fri, 25 Oct 2024 00:00:01 +0000"
+    },
+    "mount": 234.0
   }
 ]

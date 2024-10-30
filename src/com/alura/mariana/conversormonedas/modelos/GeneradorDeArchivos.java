@@ -9,7 +9,7 @@ import java.util.List;
 
 public class GeneradorDeArchivos {
 
-    public void guardarJson(List<MonedaData> listaConsultas) throws IOException {
+    public void guardarJson(List<MonedaMasMonto> listaConsultas) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter escritura = new FileWriter("consultas.json")) {
             escritura.write(gson.toJson(listaConsultas));

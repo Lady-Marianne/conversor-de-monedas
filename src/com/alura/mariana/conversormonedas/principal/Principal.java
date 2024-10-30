@@ -3,6 +3,7 @@ package com.alura.mariana.conversormonedas.principal;
 import com.alura.mariana.conversormonedas.modelos.ConvertirMoneda;
 import com.alura.mariana.conversormonedas.modelos.GeneradorDeArchivos;
 import com.alura.mariana.conversormonedas.modelos.MonedaData;
+import com.alura.mariana.conversormonedas.modelos.MonedaMasMonto;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -32,7 +33,7 @@ public class Principal {
 
         Scanner lectura = new Scanner(System.in);
         ConvertirMoneda convertir = new ConvertirMoneda();
-        List<MonedaData> listaConsultas = new ArrayList<>();
+        List<MonedaMasMonto> listaConsultas = new ArrayList<>();
         GeneradorDeArchivos generador = new GeneradorDeArchivos();
 
         while (true) {
@@ -50,8 +51,8 @@ public class Principal {
                     """);
 
                 var opcionMonedaOrigen = lectura.nextInt();
-                String base_code = obtenerMoneda(opcionMonedaOrigen);
-                if (base_code.equals("Salir")) {
+                String baseCode = obtenerMoneda(opcionMonedaOrigen);
+                if (baseCode.equals("Salir")) {
                     System.out.println("Finalizando aplicación.");
                     break;
                 }
@@ -69,9 +70,9 @@ public class Principal {
                     """);
 
                 var opcionMonedaDestino = lectura.nextInt();
-                String target_code = obtenerMoneda(opcionMonedaDestino);
+                String targetCode = obtenerMoneda(opcionMonedaDestino);
 
-                if (target_code.equals("Salir")) {
+                if (targetCode.equals("Salir")) {
                     System.out.println("Finalizando aplicación.");
                     break;
                 }
@@ -79,9 +80,13 @@ public class Principal {
                 System.out.println("Ingrese el monto a convertir:");
                 double mount = lectura.nextDouble();
 
-                MonedaData monedaData = convertir.convertirMoneda(base_code, target_code, mount);
-                listaConsultas.add(monedaData);
-                System.out.println( mount + " " + monedaData.formatoConsulta() + "\n");
+                MonedaMasMonto monedaMasMonto = convertir.convertirMoneda(baseCode, targetCode, mount);
+                listaConsultas.add(monedaMasMonto);
+
+                System.out.println(monedaMasMonto.getMount() + " " + monedaMasMonto.getBaseCode() +
+                        " son " + monedaMasMonto.getConversionResult() + " " +
+                        monedaMasMonto.getTargetCode());
+                System.out.println("Hora de la última actualización: " + monedaMasMonto.getTimeLastUpdateUtc());
 
             } catch (InputMismatchException e) {
                 System.out.println("Por favor, ingrese una opción válida.\n");

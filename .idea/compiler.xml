@@ -9,13 +9,10 @@
         <module name="conversor-de-monedas" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="conversor-de-monedas" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="conversor-de-monedas" options="-parameters" />
+      <module name="conversor-de-monedas" options="" />
     </option>
   </component>
 </project>
