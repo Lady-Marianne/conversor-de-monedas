@@ -1,11 +1,38 @@
 [
   {
-    "baseCode": "EUR",
+    "baseCode": "MXN",
     "targetCode": "ARS",
-    "mount": 170.0,
-    "conversionRate": 1079.1042,
-    "conversionResult": 183447.714,
+    "mount": 100.0,
+    "conversionRate": 49.349,
+    "conversionResult": 4934.9,
     "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000",
-    "timeLastUpdateEspanol": "03 de noviembre de 2024 a las 21:00"
+    "timeLastUpdateEspanol": "03 de noviembre de 2024 a las 21:00 hs."
+  },
+  {
+    "baseCode": "EUR",
+    "targetCode": "COP",
+    "mount": 800.0,
+    "conversionRate": 4807.1495,
+    "conversionResult": 3845719.6,
+    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000",
+    "timeLastUpdateEspanol": "03 de noviembre de 2024 a las 21:00 hs."
+  },
+  {
+    "baseCode": "USD",
+    "targetCode": "BRL",
+    "mount": 590.8,
+    "conversionRate": 5.7843,
+    "conversionResult": 3417.36444,
+    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000",
+    "timeLastUpdateEspanol": "03 de noviembre de 2024 a las 21:00 hs."
+  },
+  {
+    "baseCode": "PEN",
+    "targetCode": "ARS",
+    "mount": 1500.0,
+    "conversionRate": 262.9915,
+    "conversionResult": 394487.25,
+    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000",
+    "timeLastUpdateEspanol": "03 de noviembre de 2024 a las 21:00 hs."
   }
 ]

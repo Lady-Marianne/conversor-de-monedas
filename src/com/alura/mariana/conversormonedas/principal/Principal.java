@@ -93,7 +93,7 @@ public class Principal {
                         monedaMasMonto.getTargetCode());
                 System.out.println("Hora de la última actualización: " +
                         FormatearTiempo.formatearTiempo(monedaMasMonto.getTimeLastUpdateUtc())
-                + " hs.\n");
+                + "\n");
 
 
             } catch (InputMismatchException e) {

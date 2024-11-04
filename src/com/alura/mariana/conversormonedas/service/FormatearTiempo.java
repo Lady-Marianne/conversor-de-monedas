@@ -21,7 +21,7 @@ public class FormatearTiempo {
         // Formatear a un estilo amigable en español:
 
         DateTimeFormatter formatearSalida = new DateTimeFormatterBuilder()
-                .appendPattern("dd 'de' MMMM 'de' yyyy 'a las' HH:mm")
+                .appendPattern("dd 'de' MMMM 'de' yyyy 'a las' HH:mm 'hs.'")
                 .toFormatter(new Locale("es", "AR"));
 
         return fechaHoraLocal.format(formatearSalida);
