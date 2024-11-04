@@ -1,22 +1,26 @@
 [
   {
-    "monedaData": {
-      "base_code": "USD",
-      "target_code": "ARS",
-      "conversion_rate": 986.33,
-      "conversion_result": 98633.0,
-      "time_last_update_utc": "Fri, 25 Oct 2024 00:00:01 +0000"
-    },
-    "mount": 100.0
+    "baseCode": "BRL",
+    "targetCode": "ARS",
+    "mount": 150.0,
+    "conversionRate": 171.6277,
+    "conversionResult": 25744.155,
+    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000"
   },
   {
-    "monedaData": {
-      "base_code": "COP",
-      "target_code": "BRL",
-      "conversion_rate": 0.001319,
-      "conversion_result": 0.308646,
-      "time_last_update_utc": "Fri, 25 Oct 2024 00:00:01 +0000"
-    },
-    "mount": 234.0
+    "baseCode": "COP",
+    "targetCode": "ARS",
+    "mount": 100000.0,
+    "conversionRate": 0.2243,
+    "conversionResult": 22430.0,
+    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000"
+  },
+  {
+    "baseCode": "PEN",
+    "targetCode": "BRL",
+    "mount": 123.7,
+    "conversionRate": 1.5461,
+    "conversionResult": 191.25257,
+    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000"
   }
 ]

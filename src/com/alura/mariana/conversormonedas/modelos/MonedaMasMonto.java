@@ -2,15 +2,14 @@ package com.alura.mariana.conversormonedas.modelos;
 
 public class MonedaMasMonto {
     private String baseCode;
-    private double mount;
     private String targetCode;
-    private double conversionRate;
-    private double conversionResult;
+    private Double mount;
+    private Double conversionRate;
+    private Double conversionResult;
     private String timeLastUpdateUtc;
 
     public MonedaMasMonto(MonedaData monedaData) {
         this.baseCode = monedaData.baseCode();
-        this.mount = mount;
         this.targetCode = monedaData.targetCode();
         this.conversionRate = monedaData.conversionRate();
         this.conversionResult = monedaData.conversionResult();

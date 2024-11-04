@@ -2,7 +2,6 @@ package com.alura.mariana.conversormonedas.principal;
 
 import com.alura.mariana.conversormonedas.modelos.ConvertirMoneda;
 import com.alura.mariana.conversormonedas.modelos.GeneradorDeArchivos;
-import com.alura.mariana.conversormonedas.modelos.MonedaData;
 import com.alura.mariana.conversormonedas.modelos.MonedaMasMonto;
 
 import java.io.IOException;
@@ -82,7 +81,6 @@ public class Principal {
 
                 MonedaMasMonto monedaMasMonto = convertir.convertirMoneda(baseCode, targetCode, mount);
                 listaConsultas.add(monedaMasMonto);
-
                 System.out.println(monedaMasMonto.getMount() + " " + monedaMasMonto.getBaseCode() +
                         " son " + monedaMasMonto.getConversionResult() + " " +
                         monedaMasMonto.getTargetCode());
