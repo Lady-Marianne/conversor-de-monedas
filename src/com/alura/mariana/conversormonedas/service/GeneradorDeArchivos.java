@@ -1,5 +1,6 @@
-package com.alura.mariana.conversormonedas.modelos;
+package com.alura.mariana.conversormonedas.service;
 
+import com.alura.mariana.conversormonedas.modelos.MonedaMasMonto;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

@@ -1,26 +1,11 @@
 [
   {
-    "baseCode": "ARS",
-    "targetCode": "USD",
-    "mount": 159700.89,
-    "conversionRate": 0.001007,
-    "conversionResult": 160.81879623,
-    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000"
-  },
-  {
-    "baseCode": "USD",
+    "baseCode": "EUR",
     "targetCode": "ARS",
-    "mount": 350.0,
-    "conversionRate": 992.75,
-    "conversionResult": 347462.5,
-    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000"
-  },
-  {
-    "baseCode": "PEN",
-    "targetCode": "BRL",
-    "mount": 666.0,
-    "conversionRate": 1.5461,
-    "conversionResult": 1029.7026,
-    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000"
+    "mount": 170.0,
+    "conversionRate": 1079.1042,
+    "conversionResult": 183447.714,
+    "timeLastUpdateUtc": "Mon, 04 Nov 2024 00:00:01 +0000",
+    "timeLastUpdateEspanol": "03 de noviembre de 2024 a las 21:00"
   }
 ]

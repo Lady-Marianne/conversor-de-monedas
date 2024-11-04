@@ -1,7 +1,8 @@
 package com.alura.mariana.conversormonedas.principal;
 
-import com.alura.mariana.conversormonedas.modelos.ConvertirMoneda;
-import com.alura.mariana.conversormonedas.modelos.GeneradorDeArchivos;
+import com.alura.mariana.conversormonedas.service.ConvertirMoneda;
+import com.alura.mariana.conversormonedas.service.FormatearTiempo;
+import com.alura.mariana.conversormonedas.service.GeneradorDeArchivos;
 import com.alura.mariana.conversormonedas.modelos.MonedaMasMonto;
 
 import java.io.IOException;
@@ -15,9 +16,11 @@ public class Principal {
         return switch (opcion) {
             case 1 -> "ARS"; // Peso Argentino
             case 2 -> "USD"; // Dólar
-            case 3 -> "BRL"; // Real
-            case 4 -> "PEN"; // Sol
-            case 5 -> "COP"; // Peso Colombiano
+            case 3 -> "EUR"; // Euro
+            case 4 -> "BRL"; // Real
+            case 5 -> "PEN"; // Sol
+            case 6 -> "COP"; // Peso Colombiano
+            case 7 -> "MXN"; // Peso Mexicano
             case 0 -> "Salir";
             default -> throw new IllegalArgumentException("Por favor, ingrese una opción válida.");
         };
@@ -42,9 +45,11 @@ public class Principal {
                     Elija la moneda de origen:
                     1) Peso Argentino
                     2) Dólar
-                    3) Real
-                    4) Sol
-                    5) Peso Colombiano
+                    3) Euro
+                    4) Real
+                    5) Sol
+                    6) Peso Colombiano
+                    7) Peso Mexicano
                     0) Salir
                     *************************************************
                     """);
@@ -61,9 +66,11 @@ public class Principal {
                     Elija la moneda de destino:
                     1) Peso Argentino
                     2) Dólar
-                    3) Real
-                    4) Sol
-                    5) Peso Colombiano
+                    3) Euro
+                    4) Real
+                    5) Sol
+                    6) Peso Colombiano
+                    7) Peso Mexicano
                     0) Salir
                     *************************************************
                     """);
@@ -84,7 +91,12 @@ public class Principal {
                 System.out.println(monedaMasMonto.getMount() + " " + monedaMasMonto.getBaseCode() +
                         " son " + monedaMasMonto.getConversionResult() + " " +
                         monedaMasMonto.getTargetCode());
-                System.out.println("Hora de la última actualización: " + monedaMasMonto.getTimeLastUpdateUtc());
+//                System.out.println("Hora de la última actualización: " + monedaMasMonto.getTimeLastUpdateUtc()
+//                + "\n");
+                System.out.println("Hora de la última actualización: " +
+                        FormatearTiempo.formatearTiempo(monedaMasMonto.getTimeLastUpdateUtc())
+                + " hs.\n");
+
 
             } catch (InputMismatchException e) {
                 System.out.println("Por favor, ingrese una opción válida.\n");
