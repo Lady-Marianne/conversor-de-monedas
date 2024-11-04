@@ -91,8 +91,6 @@ public class Principal {
                 System.out.println(monedaMasMonto.getMount() + " " + monedaMasMonto.getBaseCode() +
                         " son " + monedaMasMonto.getConversionResult() + " " +
                         monedaMasMonto.getTargetCode());
-//                System.out.println("Hora de la última actualización: " + monedaMasMonto.getTimeLastUpdateUtc()
-//                + "\n");
                 System.out.println("Hora de la última actualización: " +
                         FormatearTiempo.formatearTiempo(monedaMasMonto.getTimeLastUpdateUtc())
                 + " hs.\n");
