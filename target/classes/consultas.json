@@ -1,28 +1,28 @@
 [
   {
-    "baseCode": "ARS",
-    "targetCode": "EUR",
-    "mount": 1000000.0,
-    "conversionRate": 9.2996E-4,
-    "conversionResult": 929.96,
-    "timeLastUpdateUtc": "Tue, 07 Jan 2025 00:00:01 +0000",
-    "timeLastUpdateEspanol": "06 de enero de 2025 a las 21:00 hs."
-  },
-  {
-    "baseCode": "BRL",
-    "targetCode": "USD",
-    "mount": 500000.0,
-    "conversionRate": 0.1636,
-    "conversionResult": 81800.0,
-    "timeLastUpdateUtc": "Tue, 07 Jan 2025 00:00:01 +0000",
-    "timeLastUpdateEspanol": "06 de enero de 2025 a las 21:00 hs."
-  },
-  {
-    "baseCode": "MXN",
+    "baseCode": "USD",
     "targetCode": "ARS",
-    "mount": 250000.0,
-    "conversionRate": 50.9394,
-    "conversionResult": 1.273485E7,
+    "mount": 450.0,
+    "conversionRate": 1035.75,
+    "conversionResult": 466087.5,
+    "timeLastUpdateUtc": "Tue, 07 Jan 2025 00:00:01 +0000",
+    "timeLastUpdateEspanol": "06 de enero de 2025 a las 21:00 hs."
+  },
+  {
+    "baseCode": "COP",
+    "targetCode": "MXN",
+    "mount": 1000.0,
+    "conversionRate": 0.004727,
+    "conversionResult": 4.727,
+    "timeLastUpdateUtc": "Tue, 07 Jan 2025 00:00:01 +0000",
+    "timeLastUpdateEspanol": "06 de enero de 2025 a las 21:00 hs."
+  },
+  {
+    "baseCode": "PEN",
+    "targetCode": "EUR",
+    "mount": 100000.0,
+    "conversionRate": 0.2561,
+    "conversionResult": 25610.0,
     "timeLastUpdateUtc": "Tue, 07 Jan 2025 00:00:01 +0000",
     "timeLastUpdateEspanol": "06 de enero de 2025 a las 21:00 hs."
   }
